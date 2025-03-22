@@ -2,7 +2,7 @@
 <div class="grid-item">
 <figure class="{{post_class}}">
 
-    <a class="post-link" aria-label="Navigate to {{title}} page" href="{{url}}">
+    <a class="post-link" aria-label="(t "Navigate to {{title}} page")" href="{{url}}">
         <img
             class="post-image"
             srcset="{{img_url feature_image size="s"}} 300w,
@@ -15,7 +15,7 @@
         >
     </a>
 
-    <a class="post-lightbox" aria-label="Expand image" href="{{img_url feature_image}}">
+    <a class="post-lightbox" aria-label="{{t "Expand image"}}" href="{{img_url feature_image}}">
         {{> "icons/maximize"}}
     </a>
 
@@ -31,7 +31,7 @@
                 <time datetime="{{date format="YYYY-MM-DD"}}">{{date published_at format="DD MMM YYYY"}}</time>
             </span>
             <span class="post-caption-meta-item post-caption-meta-link">
-                <a href="{{url}}">View project</a>
+                <a href="{{url}}">{{t "View project"}}</a>
             </span>
         </div>
     </figcaption>
